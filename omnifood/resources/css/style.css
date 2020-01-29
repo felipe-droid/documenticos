@@ -1,0 +1,47 @@
+
+
+html { background-color: #fff;
+       color: #555;
+       font-family:  'Lato', sans-serif;
+       font-size: 20px;
+       font-weight: 300;
+       text-rendering: optimizeLegibility;}
+
+
+.container div{ 
+    border: 1px    #ccc solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1{ display: flex;
+    width: auto;
+    height: auto;
+    background-image: url(img/girl.png);
+    background-size: cover;
+    flex-direction: row;
+
+}
+
+.box-2{ width: 20%;
+
+
+}
+
+.box-3{ width: 20%;
+
+
+}
+
+.btn{ display: inline-block;
+padding: 10px 30px;
+
+}
+
+.btn-full{ display: inline-block;
+    padding: 10px 30px;
+    
+
+
+}
