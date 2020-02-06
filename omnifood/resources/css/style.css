@@ -1,47 +1,84 @@
 
+*
+{ padding-left: 20px;
+    padding-right: 20px;
 
-html { background-color: #fff;
+}
+
+}
+
+html { background-color: rgb(226, 225, 225);
        color: #555;
        font-family:  'Lato', sans-serif;
-       font-size: 20px;
-       font-weight: 300;
+       font-size: 15px;
+       font-weight: 100;
        text-rendering: optimizeLegibility;}
 
 
 .container div{ 
-    border: 1px    #ccc solid;
+    
     padding: 10px;
     display: flex;
     flex-direction: row;
 }
 
 .box-1{ display: flex;
-    width: auto;
-    height: auto;
+    width: 25%;
+    height: 80vh;
     background-image: url(img/girl.png);
     background-size: cover;
-    flex-direction: row;
-
-}
-
-.box-2{ width: 20%;
-
-
-}
-
-.box-3{ width: 20%;
-
-
-}
-
-.btn{ display: inline-block;
-padding: 10px 30px;
-
-}
-
-.btn-full{ display: inline-block;
-    padding: 10px 30px;
+   background-position: center;
     
+}
+
+.box-2{ width: 25%;
+    height: 50%;
+       font-size: 18px;
+       color: rgba(0, 0, 0, 0.600);
+       font-weight: lighter;
+       
+       
+}
+
+.box-3{ width: 25%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.600);
+    padding-bottom: 5px;
+ 
+    
+}
+
+.box-3 img{ width: 70px;
+            height: 70px;
+          border-radius: 100%;
+
+
+}
+
+.other img {width: 70px;
+    height: 70px;
+  border-radius: 100%;
+
+
+}
+
+.other{width: 25%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.600);
+    padding-bottom: 5px;
+    
+
+}
+
+
+h1{ font-size: 15px;
+    text-align: left;
+    color: white;
+
+}
+h2{ font-size: 30px;
+     text-align: auto;
+    color:white;
 
 
 }
