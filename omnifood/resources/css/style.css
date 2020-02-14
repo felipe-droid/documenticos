@@ -1,9 +1,9 @@
 
 *
-{ padding-left: 20px;
-    padding-right: 20px;
-    width: auto;
-    height: auto;}
+{ padding-left: 15px;
+    padding-right: 13px;
+    
+    }
 
 .boton { padding-left: 10px;
     padding-top: 5px;
@@ -12,10 +12,23 @@
     background-color: white;
     border-width: 1px;
     border-style: solid;
-    border-color: #000000;
-    color: black;
+    border-color: #5e5b5b;
+    color: #5e5b5b;
     text-decoration: none;
-    font-size: 13px; }
+    font-size: 13px;
+
+}
+
+
+.botoncito {  text-decoration: none;
+    font-size: 14px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
 
 html { background-color: rgb(198, 205, 214);
        color: #555;
@@ -26,7 +39,11 @@ html { background-color: rgb(198, 205, 214);
 .container { 
     padding: 10px;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    
+}
+    
+
 
 .new { background-color: white;
       background-position: bottom;}
@@ -35,19 +52,55 @@ html { background-color: rgb(198, 205, 214);
 .new{ width: 100%;
       height: auto;}
 
+.new img{
+    width: 18px;
+    height: 18px;
+    float: right;
+    transform: translate(100%, -320%);
 
+}
+  .suspen img{
+    transform: translate( -260%, -320%);
+
+  }
+
+.suspen2 img {
+    width: 18px;
+    height: 18px;
+    transform: translate( 310%, -320%);
+
+}
+
+  
 .new-2{
     width: 100%;
     height: auto;
     background-color: white;
     margin-top: 0px;}
 
+.new-2 img {
+   float: right;
+   width: 18px;
+   height: 18px;
+   transform: translate(-20%, 10%);
+
+}
 
 .box-0{ width: 100%;
     height: 80vh;
     background-image: url(img/girl.png);
     background-size: cover;
-   background-position: center;}
+   background-position: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+.box-1{ height: 578px;
+        width: 325px;
+        padding-top: 20px;
+    padding-bottom: 10px;
+
+}
 
 .box-2{
         width: 100%;
@@ -56,12 +109,18 @@ html { background-color: rgb(198, 205, 214);
        font-weight: lighter;
        background-color: whitesmoke;
        line-height: 28px;
-       height: 82vh;}
+       height: 80vh;
+       padding-top: 0px;
+    padding-bottom: 0px;
+    
+    }
 
 
-.box-10{
-    width: 25%;
-    height: 50%;}
+.box-10{height: 560px;
+    width: 325px;
+    padding-top: 28px;
+    padding-bottom: 1px ;
+    }
 
 h4::first-letter {
     color: black;
@@ -69,21 +128,30 @@ h4::first-letter {
     font-size: 5em;
     margin: .3em .2em .2em 0;}
 
-.box-3{ width: 25%;
+.box-3{ 
     font-size: 13px;
     color: rgba(0, 0, 0, 0.600);
-    padding-bottom: 5px;
     background-color: whitesmoke;
     font-weight: 400;
-    height: 90vh;}
+        width: 325px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        height: 89vh;
+        margin-top: 28px;
+        box-shadow: 1px 1px 1px 1px rgb(192, 191, 191);
+    }
 
 .box-3 img{ width: 40px;
             height: 40px;
           border-radius: 100%;
-          float: left;}
+          float: left;
+          transform: translate(-20%, 0%);
+        }
 
 .title { text-align: center;
-         font-weight: bolder;}
+         font-weight: bolder;
+         color: black;
+        }
 
 .profile { text-align: justify;
            font-weight: bold;
@@ -92,20 +160,89 @@ h4::first-letter {
            line-height: 20px;}          
 
 
-h1{ font-size: 15px;
+h1{ font-size: 10px;
     text-align: left;
     color: white;
-    transform: translate(0%, 600%);}
+    transform: translate(0%, 930%);
+    
+}
 
 
 h2{ font-size: 30px;
      text-align: auto;
     color:white;
-    transform: translate(-0%, 50%);}
+    transform: translate(-0%, 36%);
+    line-height: 1.2em;
+}
 
 
 h5{
-    transform: translate(0%, -100%);}
+    transform: translate(1%, -115%);
+
+}
 
 
 h4 { font-size: 14px;}
+
+.unautor { color: black;
+    text-align: left;
+    transform: translate(-8%, 0%);
+}
+
+.hora{ 
+    color: rgba(0, 0, 0, 0.295);
+    float: right;
+    transform: translate(-68%, 0%);
+}
+
+
+
+.descripcion {text-align: left;
+    transform: translate(-3%, 5%);
+
+}
+
+
+.dosautor {color: black;
+    text-align: left;
+    transform: translate(-8%, 0%);
+}
+
+
+.horados { color: rgba(0, 0, 0, 0.295);
+    float: right;
+    transform: translate(-68%, 0%);
+
+}
+  
+
+.descripciondos {text-align: left;
+    transform: translate(-3%, 5%);
+}
+
+.tresautor {color: black;
+    text-align: left;
+    transform: translate(-8%, 0%);
+}
+
+
+.horatres {color: rgba(0, 0, 0, 0.295);
+    float: right;
+    transform: translate(-55%, 0%);
+}
+.descripciontres{text-align: left;
+    transform: translate(-3%, 5%);}
+
+    .cuatroautor {color: black;
+        text-align: left;
+        transform: translate(-8%, 0%);
+    }
+    
+    
+    .horacuatro {color: rgba(0, 0, 0, 0.295);
+        float: right;
+        transform: translate(-55%, 0%);
+    }
+    .descripcioncuatro{text-align: left;
+        transform: translate(-3%, 5%);}
+    
